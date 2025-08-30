@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.test.FramesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="frame2_enterName_byElement"/>
+          <include name="frame3_and_innerFrame_interactions"/>
+          <include name="tearDown"/>
+          <include name="snapOnFailure"/>
+          <include name="revisit_frame2_and_append"/>
+        </methods>
+      </class> <!-- org.test.FramesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

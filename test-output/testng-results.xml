@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-26T18:59:15 IST" name="Default suite" finished-at="2025-08-26T18:59:24 IST" duration-ms="9428">
+    <groups>
+    </groups>
+    <test started-at="2025-08-26T18:59:15 IST" name="Default test" finished-at="2025-08-26T18:59:24 IST" duration-ms="9428">
+      <class name="org.test.FramesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:15 IST" name="setUp" finished-at="2025-08-26T18:59:22 IST" duration-ms="7303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="frame1_enterName()[pri:1, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:22 IST" name="frame1_enterName" finished-at="2025-08-26T18:59:23 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frame1_enterName -->
+        <test-method is-config="true" signature="snapOnFailure(org.testng.ITestResult)[pri:0, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:23 IST" name="snapOnFailure" finished-at="2025-08-26T18:59:23 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=frame1_enterName status=SUCCESS method=FramesTest.frame1_enterName()[pri:1, instance:org.test.FramesTest@3eb738bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- snapOnFailure -->
+        <test-method signature="frame2_enterName_byElement()[pri:2, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:23 IST" name="frame2_enterName_byElement" finished-at="2025-08-26T18:59:23 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frame2_enterName_byElement -->
+        <test-method is-config="true" signature="snapOnFailure(org.testng.ITestResult)[pri:0, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:23 IST" name="snapOnFailure" finished-at="2025-08-26T18:59:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=frame2_enterName_byElement status=SUCCESS method=FramesTest.frame2_enterName_byElement()[pri:2, instance:org.test.FramesTest@3eb738bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- snapOnFailure -->
+        <test-method signature="frame3_and_innerFrame_interactions()[pri:3, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:23 IST" name="frame3_and_innerFrame_interactions" finished-at="2025-08-26T18:59:24 IST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frame3_and_innerFrame_interactions -->
+        <test-method is-config="true" signature="snapOnFailure(org.testng.ITestResult)[pri:0, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:24 IST" name="snapOnFailure" finished-at="2025-08-26T18:59:24 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=frame3_and_innerFrame_interactions status=SUCCESS method=FramesTest.frame3_and_innerFrame_interactions()[pri:3, instance:org.test.FramesTest@3eb738bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- snapOnFailure -->
+        <test-method signature="revisit_frame2_and_append()[pri:4, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:24 IST" name="revisit_frame2_and_append" finished-at="2025-08-26T18:59:24 IST" depends-on-methods="org.test.FramesTest.frame3_and_innerFrame_interactions, org.test.FramesTest.frame2_enterName_byElement" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- revisit_frame2_and_append -->
+        <test-method is-config="true" signature="snapOnFailure(org.testng.ITestResult)[pri:0, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:24 IST" name="snapOnFailure" finished-at="2025-08-26T18:59:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=revisit_frame2_and_append status=SUCCESS method=FramesTest.revisit_frame2_and_append()[pri:4, instance:org.test.FramesTest@3eb738bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- snapOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.test.FramesTest@3eb738bb]" started-at="2025-08-26T18:59:24 IST" name="tearDown" finished-at="2025-08-26T18:59:24 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.test.FramesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
