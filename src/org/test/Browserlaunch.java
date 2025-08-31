@@ -104,5 +104,8 @@ public class Browserlaunch {
     	WebElement LogOutBtn = driver.findElement(By.id("logout_sidebar_link"));
     	a.click(LogOutBtn).perform();
     	
+    	WebElement LogOutBtn1 = driver.findElement(By.id("logout_sidebar_link"));
+    	a.click(LogOutBtn).perform();
+    	
 }
 }
